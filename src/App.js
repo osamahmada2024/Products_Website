@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="margin-top container">
-        <Home />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Home />} />
